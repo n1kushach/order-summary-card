@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.main-background {
+  background: #d6e1ff;
+}
+
+.primary-blue {
+  background: #382ae1;
+}
+
+.primary-heading {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.primary-paragraph {
+  margin-top: 17px;
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: #d6e1ff;
+  display: flex;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  width: 450px;
+  height: 697px;
+  background: white;
+}
+
+.hero-img {
+  border-radius: 20px 20px 0 0;
+}
+
+.heading-plan {
+  font-weight: 900;
+  font-size: 16px;
+  color: #1f2e55;
+}
+
+.change-p {
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 1px solid #382ae1;
+  padding-bottom: 3px;
+  color: #382ae1;
+}
+
+.yearly-amount {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #717fa6;
+}
+
+.proceed-payment {
+  background: #382ae1;
+  width: 354px;
+  height: 50px;
+  border-radius: 11px;
+}
+
+.payment-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+
+.cancel {
+  color: #717fa6;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.text-info {
+  text-align: center;
+  margin: 29px 48px 0px 48px;
+}
+
+.info-box {
+  margin-top: 20px;
+  display: flex;
+  border-radius: 11px;
+  align-items: center;
+  justify-content: space-around;
+  width: 354px;
+  height: 98px;
+  background: #f7f9ff;
+}
+
+.second-section {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proceed-payment {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cancel {
+  margin-top: 50px;
+}
+
+.payment-btn {
+  font-weight: 900;
+}
